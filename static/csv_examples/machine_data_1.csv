@@ -1,0 +1,26 @@
+Hour,Item,Quantity
+00:00,Widget A,120
+01:00,Widget A,115
+02:00,Widget A,110
+03:00,Widget A,95
+04:00,Widget A,80
+05:00,Widget B,100
+06:00,Widget B,120
+07:00,Widget B,135
+08:00,Widget B,140
+09:00,Widget B,142
+10:00,Widget C,150
+11:00,Widget C,155
+12:00,Widget C,160
+13:00,Widget C,158
+14:00,Widget C,155
+15:00,Widget A,130
+16:00,Widget A,138
+17:00,Widget A,145
+18:00,Widget A,140
+19:00,Widget B,125
+20:00,Widget B,118
+21:00,Widget B,110
+22:00,Widget C,90
+23:00,Widget C,85
+24:00,Widget C,75

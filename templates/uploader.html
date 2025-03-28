@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+
+    <link rel="stylesheet" href="../static/default.css">
+    <script src="../static/jquery-3.7.1.min.js"></script>
+    <script type="module" src="../static/page.js"></script>
+
+
+</head>
+
+<body>
+
+    <div class="__page-content">
+
+        <div class="uploader-info">
+            <div class="__page-tile">Data uploader</div>
+            <div class="uploader-description">
+
+                This is my project that allows users to upload CSV files and display them in a graph view.
+
+                <br><br>
+
+                Under the hood, an SQLite database is used, along with Flask, Peewee and Python in the backend. In the
+                frontend,
+                plain HTML, CSS, and JavaScript are used. Libraries used in the frontend include jQuery and d3.js.
+
+                <br><br>
+
+                The client communicates via POST/GET requests, initially loading all previously uploaded files. The
+                database uses one table to store the files.
+
+                <br><br>
+
+                To get started, please upload CSV files on the right-hand side using the tabular view. When an entry is
+                uploaded, you can delete or display the file. Clicking the display button will redirect you to a second
+                HTML page with a graph displaying the contents of the CSV file.
+
+                <br>
+                <br>
+                Contributor: Rūdolfs Šteinbergs
+
+            </div>
+        </div>
+
+        <div class="uploader-table">
+
+            <div class="uploader-table-upload">
+                <input type="file" id="csvFiles" accept=".csv" multiple style="display: none;">
+                <button id="uploader-upload" class="uploader-table-upload-button">
+                    <img class="icon" src="../static/icons/upload.svg" alt="upload">
+                </button>
+            </div>
+
+
+
+        </div>
+
+
+    </div>
+
+</body>
+
+</html

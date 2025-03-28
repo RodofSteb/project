@@ -1,0 +1,26 @@
+Hour,Item,Quantity
+00:00,Component X,250
+01:00,Component X,245
+02:00,Component Y,200
+03:00,Component Y,190
+04:00,Component Y,185
+05:00,Component Z,300
+06:00,Component Z,310
+07:00,Component Z,325
+08:00,Component X,260
+09:00,Component X,270
+10:00,Component Y,210
+11:00,Component Y,220
+12:00,Component Y,230
+13:00,Component Z,330
+14:00,Component Z,320
+15:00,Component X,280
+16:00,Component X,290
+17:00,Component Y,240
+18:00,Component Y,235
+19:00,Component Z,315
+20:00,Component Z,305
+21:00,Component X,255
+22:00,Component Y,225
+23:00,Component Z,295
+24:00,Component X,240
